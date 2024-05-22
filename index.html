@@ -7,10 +7,11 @@
     <meta name="keywords" content="Muay Thai, Arte marcial, deporte" />
     <meta name="author" content="Iván Gómez" />
     <base href="https://www.elartedelmuaythai.com/" />
-    <link rel="stylesheet" href="style.css" />
+    <title>El arte del Muay Thai</title>
+    <link rel="stylesheet" href="style.css">
     <link
       rel="icon"
-      type="image/png"
+      type="image/x-icon"
       href="./images/muay-thai.png"
       title="muay thai favicon"
     />
@@ -21,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>El arte del Muay Thai</title>
+    <style> body{font-family: Montserrat;}</style>
   </head>
   <body>
     <header>
@@ -58,7 +59,7 @@
           disciplina respetada y popular, con competiciones organizadas durante
           festivales y eventos comunitarios.
         </p>
-        <img src="https://i0.wp.com/fightquality.com/wp-content/uploads/2016/10/muayhistory.jpg?resize=540%2C360&ssl=1" alt="Imagen antigua" width="500px"
+        <img src="https://i0.wp.com/fightquality.com/wp-content/uploads/2016/10/muayhistory.jpg?resize=540%2C360&ssl=1" alt="Imagen antigua" width="500"
         title="Imagen antigua">
         <p>
           En el siglo XX, el Muay Thai se profesionalizó, con la introducción de
@@ -113,7 +114,7 @@
         ritual tradicional llamado <em>Wai Kru Ram Muay</em>. Este ritual es una muestra
         de respeto y gratitud hacia sus entrenadores, familiares y el deporte
         mismo.
-        <img src="https://thaimall.co/cdn/shop/articles/wai-kru.jpg?v=1610956622" alt="Ritual de Muay Thai" width="600px">
+        <img src="https://thaimall.co/cdn/shop/articles/wai-kru.jpg?v=1610956622" alt="Ritual de Muay Thai" width="600">
         <p>
           El <em>Wai Kru Ram Muay</em> se realiza en dos partes. La primera parte, Wai
           Kru, es una ceremonia en la que los luchadores se arrodillan y
@@ -176,13 +177,21 @@
         </p>
       </section>
     </main>
-    <aside></aside>
+    <aside>
+    </aside>
     <footer>
       <h3>
         ¿Te ha gustado el artículo? Puedes suscribirte a nuestro boletín semanal
         registrándote aquí.
       </h3>
+      <form>
+        <input type="text" required name="username" placeholder="Tu nombre">
+        <input type="email" required name="email" placeholder="Tu correo electrónico">
+        <input type="checkbox" name="Politicas de privacidad" required>
+        <input type="submit" value="Registrar">
+      </form>
       <p>&copy; igxmez 2024</p>
     </footer>
   </body>
 </html>
+
